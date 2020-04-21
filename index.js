@@ -1,7 +1,7 @@
 var orderNumber;
 
 function takeANumber() {
-  var orderNumber = (orderNumber|| 1);
+  orderNumber = (orderNumber|| 1);
   console.log(`You are order number ${orderNumber}.`)
   orderNumber++;
 }
