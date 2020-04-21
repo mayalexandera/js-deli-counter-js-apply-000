@@ -6,6 +6,7 @@ function takeANumber() {
   orderNumber++;
 }
 
+console.log(takeANumber)
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length >= 1) {
     return `Currently serving ${katzDeliLine.shift()}.`
