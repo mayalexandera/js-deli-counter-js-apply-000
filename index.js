@@ -4,6 +4,7 @@ function takeANumber() {
   orderNumber = (orderNumber|| 1);
   console.log(`You are order number ${orderNumber}.`)
   orderNumber++;
+  return orderNumber;
 }
 
 console.log(takeANumber());
