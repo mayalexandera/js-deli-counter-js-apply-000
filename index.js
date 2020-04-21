@@ -1,4 +1,4 @@
-
+var orderNumber;
 
 function takeANumber() {
   var orderNumber = (orderNumber|| 1);
