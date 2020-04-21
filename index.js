@@ -21,6 +21,7 @@ function currentLine(line) {
   
   for(let i = 0; i < line.length; i++)
     str += (`${i+1}. ${line[i]}, `);
-    return str.substring(0, str.length - 2);
+    //return str.substring(0, str.length - 2);
+    return str;
 }
   
