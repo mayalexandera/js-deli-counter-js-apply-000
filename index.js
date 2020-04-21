@@ -3,7 +3,7 @@
 function takeANumber() {
   var orderNumber = 1;
   console.log(`You are order number ${orderNumber}.`)
-  i++;
+  orderNumber++;
 }
 
 function nowServing(katzDeliLine) {
