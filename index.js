@@ -1,10 +1,9 @@
 
 
 function takeANumber() {
-  line.push(personsName)
-  var placeInLine = line.indexOf(personsName) + 1
-  
-  return `You are number ${placeInLine} in line.`
+  var orderNumber = 1;
+  console.log(`You are order number ${orderNumber}.`)
+  i++;
 }
 
 function nowServing(katzDeliLine) {
